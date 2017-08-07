@@ -17,8 +17,7 @@ gulp.task('style', function(){
 		.pipe(sass().on('error', sass.logError))
 		.pipe(minifyCSS())
 		.pipe(concat('style.min.css'))
-		.pi
-		pe(gulp.dest('dist/css/'));
+		.pipe(gulp.dest('dist/css/'));
 });
 
 gulp.task('webserver', function(){
