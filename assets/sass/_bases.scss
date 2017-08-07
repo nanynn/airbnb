@@ -1,3 +1,8 @@
+#experiencias{
+	p{
+		font-size: 10px;
+	}
+}
 #resultado{
 	.row{
 		.logo{
@@ -5,5 +10,9 @@
 				width: 100%;
 			}
 		}
+#buscador{
+	input{
+		border: 2px solid $grey;
 	}
 }
+
