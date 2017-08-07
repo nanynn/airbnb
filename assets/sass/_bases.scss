@@ -3,6 +3,14 @@
 		font-size: 10px;
 	}
 }
+
+#buscador{
+	input{
+		border: 2px solid $grey;
+	}
+}
+
+// HTML 2
 #resultado{
 	.row{
 		.logo{
@@ -10,9 +18,14 @@
 				width: 100%;
 			}
 		}
-#buscador{
-	input{
-		border: 2px solid $grey;
+		.nav-link{
+			ul{
+				display: flex;
+				justify-content: space-around;
+				
+			}
+		}
 	}
 }
+
 
