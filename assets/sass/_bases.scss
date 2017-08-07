@@ -1,12 +1,18 @@
+#experiencias{
+	p{
+		font-size: 10px;
+	}
+}
+#resultado{
+	.row{
+		.logo{
+			img{
+				width: 100%;
+			}
+		}
 #buscador{
 	input{
 		border: 2px solid $grey;
 	}
 }
 
-
-#experiencias{
-	p{
-		font-size: 10px;
-	}
-}
