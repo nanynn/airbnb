@@ -1,8 +1,26 @@
+#experiencias{
+	p{
+		font-size: 10px;
+	}
+}
+#buscador{
+	input{
+		border: 2px solid $grey;
+	}
+}
+// HTML 2
 #resultado{
 	.row{
 		.logo{
 			img{
 				width: 100%;
+			}
+		}
+		.nav-link{
+			ul{
+				display: flex;
+				justify-content: space-around;
+				
 			}
 		}
 	}
