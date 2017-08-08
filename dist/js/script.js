@@ -20255,6 +20255,7 @@ if (jQuery) {
 
 $(document).ready(function(){
 	
+
 })
 function initMap(){
 	var directionsService = new google.maps.DirectionsService;
@@ -20276,3 +20277,5 @@ function initMap(){
 		autocompletar.bindTo('bounds', map);          
 */
 }
+
+
