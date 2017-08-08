@@ -20255,7 +20255,7 @@ if (jQuery) {
 
 $(document).ready(function(){
 	$(".filtros-avanzados").hide();
-	$(".boton-filtros").click(function(event){
+	$(".boton-filtro").click(function(event){
   		event.preventDefault();
 		//$(".filtros-avanzados").toggle("slow","display");
 		$(".filtros-avanzados").show();
@@ -20287,8 +20287,5 @@ function initMap(){
 	directionsDisplay.setMap(map);
 		var inicio = (document.getElementById('busqueda')); 
 		var autocompletar = new google.maps.places.Autocomplete(inicio);
-	autocomplete.bindTo('bounds', map);  
-	/*var input = (document.getElementById('busqueda'));
-	var autocomplete = new google.maps.places.Autocomplete(input);
-	autocomplete.bindTo('bounds', map); */      
+	autocomplete.bindTo('bounds', map);      
 }
