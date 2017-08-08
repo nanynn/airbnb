@@ -20253,6 +20253,25 @@ if (jQuery) {
   };
 })(jQuery);
 
+
+/*VALIDACIONES*/
+//Al momento de hacer click, se muentran las validaciones
+$(document).on("ready", inicio);
+function inicio(){
+	$("#bFiltro").on("click", validarDatos);
+}
+function validarDatos(){
+	var cb = $("input[type = 'checkbox']:checked");
+	var habitaciones = $("#habitaciones option:selected");
+
+	if (cb.length == 0) {
+		$("#mensaje1").fadeIn();
+		return false;
+	}else{
+		$("#mensaje1").fadeOut();
+	}
+}
+
 $(document).ready(function(){
 	$(".filtros-avanzados").hide();
 	$(".boton-filtro").click(function(event){
@@ -20287,5 +20306,17 @@ function initMap(){
 	directionsDisplay.setMap(map);
 		var inicio = (document.getElementById('busqueda')); 
 		var autocompletar = new google.maps.places.Autocomplete(inicio);
+
 	autocomplete.bindTo('bounds', map);      
+}
+
+
+		autocompletar.bindTo('bounds', map);          
+*/
+}
+
+	autocomplete.bindTo('bounds', map);  
+	/*var input = (document.getElementById('busqueda'));
+	var autocomplete = new google.maps.places.Autocomplete(input);
+	autocomplete.bindTo('bounds', map); */      
 }
