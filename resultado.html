@@ -41,7 +41,7 @@
            				<input type="text" class="timepicker"> 
          			</div>
          			<div class="col xl3 l3 m3 s12">
-         				<select class="browser-default">
+         				<select class="browser-default" id="huesped">
           					<option value="" disabled selected>Choose your option</option>
           					<option value="1">1 huésped</option>
           					<option value="2">2 huéspedes</option>
@@ -71,6 +71,9 @@
             				<input type="checkbox" id="test5" />
             				<label for="test5"><i class="fa fa-home" aria-hidden="true"></i> Casa Entera</label>
           				</p>
+          				<div class="errores" id="mensaje1">
+          					Debe llenar esta campo
+          				</div>
         			</form>
         		</div>  
          		<div class="col xl3 l3 m3 s12">
@@ -79,6 +82,9 @@
               				<input type="checkbox" id="test6" />
               				<label for="test6"><i class="fa fa-bed" aria-hidden="true"></i>Habitación privada</label>
             			</p>
+            			<div class="errores" id="mensaje1">
+            				Debe llenar esta campo
+            			</div>
           			</form>
          		</div>
          		<div class="col xl3 l3 m3 s12">
@@ -87,6 +93,9 @@
               				<input type="checkbox" id="test7" />
               				<label for="test7"><i class="fa fa-bed" aria-hidden="true"></i>Habitación Compartida</label>
             			</p>
+            			<div class="errores" id="mensaje1">
+            				Debe llenar esta campo
+            			</div>
           			</form>
         		</div>    
       		</div> 
@@ -155,7 +164,7 @@
 						<p>Tamaño</p>
 					</div>
 					<div class="col l3">
-						<select class="browser-default">
+						<select id="habitaciones" class="browser-default">
 						    <option value="" disabled selected>Habitaciones</option>
 						    <option value="1">1</option>
 						    <option value="2">2</option>
@@ -314,14 +323,14 @@
 				<div class="col s12 offset-s6 btn-section">
 					<div class="col s6 btn-section">
 						<a class="waves-effect waves-light btn white btn__grey">Cancelar</a>
-						<a class="waves-effect waves-light btn btn__pink right">Aplicar filtros</a>
+						<a id="bFiltro" class="waves-effect waves-light btn btn__pink right">Aplicar filtros</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- Footer -->
 		<footer class="page-footer">
-    		<div class="container">
+    		<div class="conƒiner">
       			<div class="row">
       				<div class="col xl3 l3 m3 s12">
           				<h5 class="white-text">Links</h5>
