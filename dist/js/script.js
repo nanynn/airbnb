@@ -20253,6 +20253,24 @@ if (jQuery) {
   };
 })(jQuery);
 
+$(document).ready(function(){
+	$(".filtros-avanzados").hide();
+	$(".boton-filtros").click(function(event){
+  		event.preventDefault();
+		//$(".filtros-avanzados").toggle("slow","display");
+		$(".filtros-avanzados").show();
+		
+	});
+	$(".boton-filtro-cerrar").click(function(event){
+  		event.preventDefault();
+		$(".filtros-avanzados").hide();
+	});
+
+	
+	
+})
+
+
 function initMap(){
 	var directionsService = new google.maps.DirectionsService;
 	var directionsDisplay = new google.maps.DirectionsRenderer;
@@ -20273,4 +20291,3 @@ function initMap(){
 		autocompletar.bindTo('bounds', map);          
 */
 }
-
