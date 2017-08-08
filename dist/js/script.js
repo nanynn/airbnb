@@ -20253,7 +20253,7 @@ if (jQuery) {
   };
 })(jQuery);
 
-<<<<<<< HEAD
+
 /*VALIDACIONES*/
 //Al momento de hacer click, se muentran las validaciones
 $(document).on("ready", inicio);
@@ -20271,7 +20271,7 @@ function validarDatos(){
 		$("#mensaje1").fadeOut();
 	}
 }
-=======
+
 $(document).ready(function(){
 	$(".filtros-avanzados").hide();
 	$(".boton-filtros").click(function(event){
@@ -20302,12 +20302,18 @@ function initMap(){
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
       mapTypeIds: ['roadmap', 'terrain']
     }
-
 	});
-	/*directionsDisplay.setMap(map);
+	directionsDisplay.setMap(map);
 		var inicio = (document.getElementById('busqueda')); 
 		var autocompletar = new google.maps.places.Autocomplete(inicio);
+
 		autocompletar.bindTo('bounds', map);          
 */
 }
->>>>>>> b336d2a51bab2b7d8ce05d2ba6a89cc3739e3bcf
+
+	autocomplete.bindTo('bounds', map);  
+	/*var input = (document.getElementById('busqueda'));
+	var autocomplete = new google.maps.places.Autocomplete(input);
+	autocomplete.bindTo('bounds', map); */      
+}
+

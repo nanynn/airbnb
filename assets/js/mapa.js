@@ -10,11 +10,9 @@ function initMap(){
       style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
       mapTypeIds: ['roadmap', 'terrain']
     }
-
 	});
-	/*directionsDisplay.setMap(map);
+	directionsDisplay.setMap(map);
 		var inicio = (document.getElementById('busqueda')); 
 		var autocompletar = new google.maps.places.Autocomplete(inicio);
-		autocompletar.bindTo('bounds', map);          
-*/
+	autocomplete.bindTo('bounds', map);      
 }
