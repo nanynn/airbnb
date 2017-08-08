@@ -6,8 +6,13 @@
 	}
 }
 
+#buscador{
+	input{
+		border: 2px solid $grey;
+	}
+}
 
-
+// HTML 2
 #resultado{
 	.row{
 		.logo{
@@ -15,17 +20,21 @@
 				width: 100%;
 			}
 		}
-#buscador{
-	input{
-		border: 2px solid $grey;
+		.nav-link{
+			ul{
+				display: flex;
+				justify-content: space-around;
+				
+			}
+		}
 	}
 }
-}
-}
-
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c9a275b92424971627cd1af15d90fe3adfeea21b
 #footer{
 	a {
     background-color: transparent;
@@ -61,6 +70,43 @@
 }
 .btn{
 	box-shadow: none;
+<<<<<<< HEAD
 >>>>>>> b275cb1b722b01748be36f34dbcfcdccde10f27d
+=======
+
+.filtros-avanzados{
+	.grey-text{
+	color: $letters !important;
+	font-weight: bold;
+	}	
+	hr{
+		color: $hrGrey;
+	}
+	.fa-trophy{
+		color: $fa-trophy;
+	}
+	.superhost{
+		font-size: 14px;
+		color: $letters !important;
+		font-weight: bold;
+	}
+	.btn-section{
+		.btn{
+			text-transform: none;
+			width: 200px;
+		}
+		.btn__pink{
+			background: $pink;
+		}
+		.btn__grey{
+			margin-left: 10px;
+			color: $grey;
+		}
+	}
 }
+
+
 }
+>>>>>>> c9a275b92424971627cd1af15d90fe3adfeea21b
+}
+
