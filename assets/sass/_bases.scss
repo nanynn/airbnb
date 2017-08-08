@@ -29,8 +29,6 @@
 		}
 	}
 }
-}
-}
 
 #footer{
 	a {
@@ -67,6 +65,38 @@
 }
 .btn{
 	box-shadow: none;
+
+.filtros-avanzados{
+	.grey-text{
+	color: $letters !important;
+	font-weight: bold;
+	}	
+	hr{
+		color: $hrGrey;
+	}
+	.fa-trophy{
+		color: $fa-trophy;
+	}
+	.superhost{
+		font-size: 14px;
+		color: $letters !important;
+		font-weight: bold;
+	}
+	.btn-section{
+		.btn{
+			text-transform: none;
+			width: 200px;
+		}
+		.btn__pink{
+			background: $pink;
+		}
+		.btn__grey{
+			margin-left: 10px;
+			color: $grey;
+		}
+	}
+}
+
 
 }
 }
