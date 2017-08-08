@@ -1,8 +1,13 @@
 #experiencias{
+	padding-top: 50px;
+	padding-bottom: 100px;
 	p{
 		font-size: 10px;
 	}
 }
+
+
+
 #resultado{
 	.row{
 		.logo{
@@ -15,6 +20,47 @@
 		border: 2px solid $grey;
 	}
 }
+}
+}
 
+
+<<<<<<< HEAD
+=======
+#footer{
+	a {
+    background-color: transparent;
+    color: #393E44;
+    }
+	.page-footer{
+		border-top: 1px solid black;
+		.container{
+			color:#393E44;
+			
+	img{
+		width: 41px;
+	}
+      }
+	}
+	.footer-copyright{
+    border-top: 1px solid black;
+	}
+	.page-footer, .pagination li.active {
+    background-color: white;
+}
+.page-footer .footer-copyright {
+    overflow: hidden;
+    min-height: 50px;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+    color: rgba(255,255,255,.8);
+    background-color: white;
+}
+.btn{
+	box-shadow: none;
+>>>>>>> b275cb1b722b01748be36f34dbcfcdccde10f27d
 }
 }
