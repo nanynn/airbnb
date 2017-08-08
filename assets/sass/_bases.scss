@@ -27,5 +27,20 @@
 		}
 	}
 }
+.filtros-avanzados{
+	.btn-section{
+		.btn{
+			text-transform: none;
+			width: 200px;
+		}
+		.btn__pink{
+			background: $pink;
+		}
+		.btn__grey{
+			margin-left: 10px;
+			color: $grey;
+		}
+	}
+}
 
 
