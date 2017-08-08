@@ -20,6 +20,13 @@
 				width: 100%;
 			}
 		}
+		.cont-busqueda{
+			margin-top: 12px;
+			#busqueda{
+				margin-bottom: 0px;
+				height: 22px;
+			}
+		}
 		.nav-link{
 			ul{
 				display: flex;
@@ -27,6 +34,9 @@
 				
 			}
 		}
+	}
+	#map{
+		height: 500px;
 	}
 }
 
@@ -65,7 +75,7 @@
 }
 .btn{
 	box-shadow: none;
-
+}
 .filtros-avanzados{
 	.grey-text{
 	color: $letters !important;
@@ -95,9 +105,5 @@
 			color: $grey;
 		}
 	}
-}
-
-
-}
 }
 
