@@ -20253,6 +20253,11 @@ if (jQuery) {
   };
 })(jQuery);
 
+$(document).ready(function(){
+	$(".filtros-avanzados").hide();
+})
+
+
 function initMap(){
 	var directionsService = new google.maps.DirectionsService;
 	var directionsDisplay = new google.maps.DirectionsRenderer;
@@ -20273,4 +20278,3 @@ function initMap(){
 		autocompletar.bindTo('bounds', map);          
 */
 }
-
