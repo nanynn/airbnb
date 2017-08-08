@@ -20253,6 +20253,7 @@ if (jQuery) {
   };
 })(jQuery);
 
+<<<<<<< HEAD
 /*VALIDACIONES*/
 //Al momento de hacer click, se muentran las validaciones
 $(document).on("ready", inicio);
@@ -20270,3 +20271,43 @@ function validarDatos(){
 		$("#mensaje1").fadeOut();
 	}
 }
+=======
+$(document).ready(function(){
+	$(".filtros-avanzados").hide();
+	$(".boton-filtros").click(function(event){
+  		event.preventDefault();
+		//$(".filtros-avanzados").toggle("slow","display");
+		$(".filtros-avanzados").show();
+		
+	});
+	$(".boton-filtro-cerrar").click(function(event){
+  		event.preventDefault();
+		$(".filtros-avanzados").hide();
+	});
+
+	
+	
+})
+
+
+function initMap(){
+	var directionsService = new google.maps.DirectionsService;
+	var directionsDisplay = new google.maps.DirectionsRenderer;
+
+	var map = new google.maps.Map(document.getElementById("map"),{
+	zoom: 4,
+    center: {lat: -33.416667,lng: -70.65},
+    mapTypeControl: true,
+    mapTypeControlOptions: {
+      style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+      mapTypeIds: ['roadmap', 'terrain']
+    }
+
+	});
+	/*directionsDisplay.setMap(map);
+		var inicio = (document.getElementById('busqueda')); 
+		var autocompletar = new google.maps.places.Autocomplete(inicio);
+		autocompletar.bindTo('bounds', map);          
+*/
+}
+>>>>>>> b336d2a51bab2b7d8ce05d2ba6a89cc3739e3bcf
