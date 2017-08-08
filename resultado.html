@@ -13,7 +13,7 @@
 	<section id="resultado" class="container-fluid">
 		<div class="row"><!-- nav -->
 			<div class="col l1 logo"><img src="assets/sass/img/logo.png" alt="Logo airbnb"></div>
-			<div class="col l5 valign-wrapper left cont-busqueda"><i class="material-icons prefix">search</i><input id="busqueda" type="text"></div>
+			<div class="col l5 valign-wrapper left cont-busqueda"><i class="material-icons prefix">search</i><input id="busqueda" type="text" autocomplete="street-address"></div>
 			<div class="col l6 nav-link">
 				<ul>
 					<li><a href="#"></a>Conviértete en anfitrión</li>
@@ -220,15 +220,15 @@
 							<p>
 								<div class="col l3">
 									<input type="checkbox" class="filled-in" id="test9" />
-									<label for="test9">Edificio con asecensor</label> 
+									<label for="test9">Edificio con ascensor</label> 
 								</div>
 								<div class="col l3"> 
-							    <input type="checkbox" class="filled-in" id="test10" />
-								<label for="test10">Gimnasio</label>
+								    <input type="checkbox" class="filled-in" id="test10" />
+									<label for="test10">Gimnasio</label>
 								</div> 
 								<div class="col l3"> 
-							    <input type="checkbox" class="filled-in" id="test11" />
-								<label for="test11">Parking gratuito<br>incluido</label>
+								    <input type="checkbox" class="filled-in" id="test11" />
+									<label for="test11">Parking gratuito<br>incluido</label>
 								</div>
 							</p> 					    
 						</form>
@@ -360,8 +360,7 @@
 	</section>
 	<script src="https://use.fontawesome.com/4154d90246.js" ></script>
 	<!-- google Maps -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm5nNhEsemgUcAci5Tj9_R4n4LHjdVbBA&callback=initMap"
- type="text/javascript"></script> 
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm5nNhEsemgUcAci5Tj9_R4n4LHjdVbBA&libraries=places&callback=initMap" type="text/javascript"></script> 
 	<script src="dist/js/script.js"></script>
 </body>
 </html>
