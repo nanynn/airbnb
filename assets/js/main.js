@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*VALIDACIONES*/
 //Al momento de hacer click, se muentran las validaciones
 $(document).on("ready", inicio);
@@ -16,8 +16,9 @@ function validarDatos(){
 		$("#mensaje1").fadeOut();
 	}
 }
-=======
+
 $(document).ready(function(){
+
 	$(".filtros-avanzados").hide();
 	$(".boton-filtro").click(function(event){
   		event.preventDefault();
@@ -29,9 +30,6 @@ $(document).ready(function(){
   		event.preventDefault();
 		$(".filtros-avanzados").hide();
 	});
-
 	
-	
-})
+});
 
->>>>>>> b336d2a51bab2b7d8ce05d2ba6a89cc3739e3bcf
