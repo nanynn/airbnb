@@ -4,7 +4,7 @@ $(document).ready(function() {
 	var salidaGuardado = $("#salida").text(localStorage.getItem("salida"));
 	var personasGuardado = $("#cantidad").text(localStorage.getItem("personas"));
 
-	$("#llegadaDos").append(llegadaDos);
+	$("#llegadaDos").append(llegadaGuardado);
 	$("#salidaDos").append(salidaGuardado);
 	
 });
