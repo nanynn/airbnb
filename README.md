@@ -17,7 +17,7 @@ El proyecto fue realizado con las siguientes dependencias NPM:
 
 * Dependencias de Producción:
 	- JQuery ~v.3.1.1 
-	- Bootstrap ~^0.100.1
+	- Materialize ~^0.100.1
 
 * Solicitud de Apis:
 	- Google Maps
