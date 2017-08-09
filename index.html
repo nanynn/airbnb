@@ -7,37 +7,42 @@
     <!-- Material Icon  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
+    <!-- estilo de plugin -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
     <!-- Enlazo con CSS -->
     <link rel="stylesheet" type="" href="dist/css/style.min.css">
 </head>
 <body>
 	<section id="buscador">
-		<div class="container">
+		<div class="container buscador__box">
 			<div class="row">
 			    <form class="col s12">
 			      <div class="row">
 			        <div class="input-field col s3">
-			            <input id="first_name" type="text" class="validate">
-			            <label for="first_name">Donde</label>
+			            <input id="donde" type="text" class="active tooltipped" data-position="bottom" data-delay="50" data-tooltip="Debes escribir un lugar">
+			            <label for="donde">Donde</label>
 			        </div>
 			        <div class="input-field col s3">
-			            <input id="last_name" type="text" class="validate">
-			            <label for="last_name">Cuando</label>
+			        	<div class="col s6">
+			        		<input id="llegada" type="text" class="active" placeholder="llegada">
+			        	</div>
+			        	<div class="col s6">
+			        		<input id="salida" type="text" class="active" placeholder="salida">
+			        		<label for="salida">Cuándo</label>
+			        	</div> 			            
 			        </div>
 			        <div class="input-field col s3">
-			            <input id="last_name" type="text" class="validate">
-			            <label for="last_name">Huéspedes</label>
+			            <input id="cantidad" type="text" class="active tooltipped" data-position="bottom" data-delay="50" data-tooltip="Debes escribir número de personas">
+			            <label for="cantidad">Huéspedes</label>
 			        </div>
-			        <div class="col s3">
-			        	<a href="#" class="btn">buscar</a>
+			        <div class="input-field col s3">
+			        	<a href="resultado.html" class="btn buscador__box--btn" id="btn-datos">buscar</a>
 			        </div>
 			      </div>
 			    </form>
 		  </div>
 	  	</div>
 	</section>  
-
-
 
 <section id="experiencias">
 	<div class="container">
@@ -63,10 +68,7 @@
 		</div>
 	</div>
 </section>
-<<<<<<< HEAD
 
-=======
->>>>>>> b336d2a51bab2b7d8ce05d2ba6a89cc3739e3bcf
 <section id="footer">
 	        <footer class="page-footer">
           <div class="container">
